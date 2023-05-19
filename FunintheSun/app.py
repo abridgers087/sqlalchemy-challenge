@@ -119,7 +119,7 @@ def tobs():
     return jsonify(tobs_dict)
 
 #<start> route
-@app.route('/api/v1.0/<start>')
+@app.route(f"{api}<start>")
 def calc_temps_start(start):
     
     # Query the TMIN, TAVG, and TMAX for dates greater than or equal to the start date
@@ -144,7 +144,7 @@ def calc_temps_start(start):
     return jsonify(temps_list)
 
 #<combo> route
-@app.route('/api/v1.0/<start>/<end>')
+@app.route(f"{api}<start>/<end>")
 def calc_temps_start_end(start, end):
 
     # Query the TMIN, TAVG, and TMAX for dates from the start date to the end date, inclusive
