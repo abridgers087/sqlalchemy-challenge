@@ -8,4 +8,4 @@ Part 1: Analyze and Explore the Climate Data
 
   C.  Station Analysis - Complete
 
-Part 2: Design Your Climate App - initial code complete (5-19)
+Part 2: Design Your Climate App - Use the included app.py for this portion of the assignment.
