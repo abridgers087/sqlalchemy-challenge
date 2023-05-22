@@ -39,14 +39,15 @@ def welcome():
     """List of all available api routes."""
     return (
         f"Available Routes:<br/>"
+        f"</br>"
         f"{api}precipitation<br/>"
         f"{api}stations<br/>"
         f"{api}tobs<br/>"
         f"</br>"
         f"You can also use the API to return a JSON list of the minimum temperature, the average temperature, and the maximum temperature for a specified start or start-end range using the below format:</br>"
         f"</br>"
-        f"{api}<start date> (YYYY-MM-DD Format)<br/>"
-        f"{api}<start date>/<end date> (YYYY-MM-DD Format)<br/>"
+        f"{api}start date (YYYY-MM-DD Format)<br/>"
+        f"{api}start date/end date (YYYY-MM-DD Format)<br/>"
     )
 
 #/precip route
